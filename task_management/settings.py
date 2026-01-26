@@ -98,6 +98,7 @@ DATABASES = {
     'default': dj_database_url.config(
         default='postgresql://event_manager_db_5800_user:95qjJZxbzDjuAeCGwb3RLHW2VIMxMxvi@dpg-d5rtl5npm1nc73fah0n0-a.oregon-postgres.render.com/event_manager_db_5800',
         conn_max_age=600,
+         ssl_require=True
          
     )
 }
