@@ -1,0 +1,1258 @@
+[
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$Z60OMcNKe6u3pxyxjf1yzq$oTIeuyjOzNNIp9ftjSJnCbYLwbfeF/GaIZv3lx+5pc8=",
+    "last_login": "2026-01-24T16:50:06.953Z",
+    "is_superuser": true,
+    "username": "arman",
+    "first_name": "",
+    "last_name": "",
+    "email": "mdarmanislam20021@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-01-24T16:49:44.483Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4lkv9r656scl3r6ogjh3u1b9rj8evei0",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyHQhu3i0bvfQBZYpGogKe2p8d-lSQ86x3lvZheOtjW7rfHi5iiuQovLb-cpvLgcID6pPKoMtazL7OWhyJM2ea-R37fT_TvI1HJfp2FC1oqNVxZ9TyI0AyiyCRCsYa2nTkcMmoMBwt7GkJTmCABqFJ8v5PI3sA:1vjgpq:IR7xCqX7bJ-U1F0DTWtuEFrOidWY8kUcgM_IK2yGJ4E",
+    "expire_date": "2026-02-07T16:50:06.958Z"
+  }
+},
+{
+  "model": "tasks.employee",
+  "pk": 1,
+  "fields": {
+    "name": "Tyler Sosa",
+    "email": "joshuareyes@example.com"
+  }
+},
+{
+  "model": "tasks.employee",
+  "pk": 2,
+  "fields": {
+    "name": "Penny Manning",
+    "email": "greenalex@example.com"
+  }
+},
+{
+  "model": "tasks.employee",
+  "pk": 3,
+  "fields": {
+    "name": "Micheal Gibson",
+    "email": "myersriley@example.net"
+  }
+},
+{
+  "model": "tasks.employee",
+  "pk": 4,
+  "fields": {
+    "name": "Beverly Perez",
+    "email": "johnrobles@example.com"
+  }
+},
+{
+  "model": "tasks.employee",
+  "pk": 5,
+  "fields": {
+    "name": "Wendy Campos",
+    "email": "bruce43@example.org"
+  }
+},
+{
+  "model": "tasks.employee",
+  "pk": 6,
+  "fields": {
+    "name": "Jose Lowery",
+    "email": "kristincastillo@example.net"
+  }
+},
+{
+  "model": "tasks.employee",
+  "pk": 7,
+  "fields": {
+    "name": "Cathy Shaw",
+    "email": "veronicavang@example.com"
+  }
+},
+{
+  "model": "tasks.employee",
+  "pk": 8,
+  "fields": {
+    "name": "Eric Dyer",
+    "email": "rachel05@example.com"
+  }
+},
+{
+  "model": "tasks.employee",
+  "pk": 9,
+  "fields": {
+    "name": "Julie Schmidt",
+    "email": "rhodesbenjamin@example.com"
+  }
+},
+{
+  "model": "tasks.employee",
+  "pk": 10,
+  "fields": {
+    "name": "Daniel Nielsen",
+    "email": "laura37@example.com"
+  }
+},
+{
+  "model": "tasks.project",
+  "pk": 1,
+  "fields": {
+    "name": "Extend end-to-end convergence",
+    "start_date": "2026-01-05",
+    "description": "No item glass drug game see upon. Our because suffer."
+  }
+},
+{
+  "model": "tasks.project",
+  "pk": 2,
+  "fields": {
+    "name": "Facilitate real-time networks",
+    "start_date": "2026-01-01",
+    "description": "Mind base money matter remember owner. Conference type plan month enjoy pass new run. Sometimes stop become effort record law."
+  }
+},
+{
+  "model": "tasks.project",
+  "pk": 3,
+  "fields": {
+    "name": "Disintermediate scalable eyeballs",
+    "start_date": "2026-01-06",
+    "description": "Term spend development. Fill unit good expert wait away. Senior leader ago appear size prevent answer."
+  }
+},
+{
+  "model": "tasks.project",
+  "pk": 4,
+  "fields": {
+    "name": "Streamline killer portals",
+    "start_date": "2026-01-10",
+    "description": "Along through similar trade Mr region those. Public quality though across wall. Guess send western them station difference."
+  }
+},
+{
+  "model": "tasks.project",
+  "pk": 5,
+  "fields": {
+    "name": "Evolve seamless initiatives",
+    "start_date": "2026-01-01",
+    "description": "Writer such let indicate significant within. Toward carry usually employee result activity. Authority box purpose training."
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 9,
+  "fields": {
+    "project": 5,
+    "title": "Quantum",
+    "description": "Style answer record me sea. Mention billion seat lead major team red. Live certainly law share candidate describe.",
+    "due_date": "2026-01-09",
+    "status": "PENDING",
+    "image": "task_images/night-club-party-flyer-social-media-story_505751-4366_FO5n8Ds.jpg",
+    "is_completed": false,
+    "create_at": "2026-01-10T19:43:15.945Z",
+    "updated_at": "2026-01-26T16:44:58.363Z",
+    "assigned_to": [
+      10,
+      7
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 10,
+  "fields": {
+    "project": 4,
+    "title": "Next Horizon",
+    "description": "Southern different name try all ground own around. Series civil indicate benefit foot nice reason. Machine meeting nor meeting land even.",
+    "due_date": "2026-01-01",
+    "status": "IN_PROGRESS",
+    "image": "task_images/istockphoto-1309885670-612x612_3rGzusS.jpg",
+    "is_completed": false,
+    "create_at": "2026-01-10T19:43:15.948Z",
+    "updated_at": "2026-01-26T15:58:43.788Z",
+    "assigned_to": [
+      7
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 11,
+  "fields": {
+    "project": 1,
+    "title": "Pulse 2026",
+    "description": "Education image statement parent gun everything. Benefit rich hear break. Must tough week another she hospital hope.",
+    "due_date": "2026-01-01",
+    "status": "IN_PROGRESS",
+    "image": "task_images/component_afV8L24.jpg",
+    "is_completed": false,
+    "create_at": "2026-01-10T19:43:15.953Z",
+    "updated_at": "2026-01-26T15:58:34.594Z",
+    "assigned_to": [
+      2
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 12,
+  "fields": {
+    "project": 3,
+    "title": "InnovateX",
+    "description": "Arm stop choose travel point laugh guess. Western anything across word whole though conference. Reach news rather appear job safe.",
+    "due_date": "2026-01-04",
+    "status": "COMPLETED",
+    "image": "task_images/event-poster-template-design_23-2149231976.jpg",
+    "is_completed": false,
+    "create_at": "2026-01-10T19:43:15.956Z",
+    "updated_at": "2026-01-26T15:58:25.404Z",
+    "assigned_to": [
+      9,
+      5
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 13,
+  "fields": {
+    "project": 2,
+    "title": "Momentum",
+    "description": "Relate class vote. Girl education woman hair carry.",
+    "due_date": "2026-01-04",
+    "status": "COMPLETED",
+    "image": "task_images/1131w-3jFYznGEgnU_qZlrNfk.jpg",
+    "is_completed": false,
+    "create_at": "2026-01-10T19:43:15.959Z",
+    "updated_at": "2026-01-26T15:58:11.278Z",
+    "assigned_to": [
+      5
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 14,
+  "fields": {
+    "project": 3,
+    "title": "TechTide",
+    "description": "Certain job player father. Suggest save loss data.",
+    "due_date": "2026-01-06",
+    "status": "PENDING",
+    "image": "task_images/component_stEn89T.jpg",
+    "is_completed": true,
+    "create_at": "2026-01-10T19:43:15.961Z",
+    "updated_at": "2026-01-26T15:58:02.569Z",
+    "assigned_to": [
+      8,
+      7
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 15,
+  "fields": {
+    "project": 5,
+    "title": "Visionary Vibes",
+    "description": "Suddenly author write seven during exist. Character resource rich. Always reason indeed rest.",
+    "due_date": "2026-01-06",
+    "status": "COMPLETED",
+    "image": "task_images/night-club-party-flyer-social-media-story_505751-4366_m3L9gVO.jpg",
+    "is_completed": false,
+    "create_at": "2026-01-10T19:43:15.963Z",
+    "updated_at": "2026-01-26T15:57:43.853Z",
+    "assigned_to": [
+      5
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 16,
+  "fields": {
+    "project": 1,
+    "title": "SparkCon",
+    "description": "Because maybe those glass.",
+    "due_date": "2026-01-07",
+    "status": "IN_PROGRESS",
+    "image": "task_images/component_eRjtkM2.jpg",
+    "is_completed": false,
+    "create_at": "2026-01-10T19:43:15.969Z",
+    "updated_at": "2026-01-26T15:57:34.153Z",
+    "assigned_to": [
+      8,
+      1
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 17,
+  "fields": {
+    "project": 5,
+    "title": "Ignite 2026",
+    "description": "Husband current once certainly religious dinner. Because campaign game bank once range arrive world. Cause get remember.",
+    "due_date": "2026-01-03",
+    "status": "IN_PROGRESS",
+    "image": "task_images/night-club-party-flyer-social-media-story_505751-4366.jpg",
+    "is_completed": false,
+    "create_at": "2026-01-10T19:43:15.973Z",
+    "updated_at": "2026-01-26T15:57:22.777Z",
+    "assigned_to": [
+      5
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 18,
+  "fields": {
+    "project": 3,
+    "title": "Front Event Now Ongoing",
+    "description": "Rich hard security cell. Player court police go.",
+    "due_date": "2026-01-02",
+    "status": "COMPLETED",
+    "image": "task_images/istockphoto-1309885670-612x612_is7yFdK.jpg",
+    "is_completed": true,
+    "create_at": "2026-01-10T19:43:15.977Z",
+    "updated_at": "2026-01-26T15:56:23.402Z",
+    "assigned_to": [
+      4
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 19,
+  "fields": {
+    "project": 2,
+    "title": "Brazil Event Newi",
+    "description": "Program design less source. Spring game read family feeling need piece. Small help rest morning ability building part. Begin skin can.",
+    "due_date": "2026-01-04",
+    "status": "PENDING",
+    "image": "task_images/1131w-3jFYznGEgnU.jpg",
+    "is_completed": true,
+    "create_at": "2026-01-10T19:43:15.981Z",
+    "updated_at": "2026-01-26T15:56:06.586Z",
+    "assigned_to": [
+      8,
+      9,
+      2
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 20,
+  "fields": {
+    "project": 3,
+    "title": "Music Fest",
+    "description": "Better while new very others. Whose though age power learn suddenly.",
+    "due_date": "2026-01-03",
+    "status": "IN_PROGRESS",
+    "image": "task_images/component.jpg",
+    "is_completed": true,
+    "create_at": "2026-01-10T19:43:15.987Z",
+    "updated_at": "2026-01-26T15:55:43.979Z",
+    "assigned_to": [
+      2
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 25,
+  "fields": {
+    "project": 1,
+    "title": "Fusion 2026",
+    "description": "dfd",
+    "due_date": "2026-01-01",
+    "status": "COMPLETED",
+    "image": "task_images/figure6.png",
+    "is_completed": false,
+    "create_at": "2026-01-26T14:27:13.738Z",
+    "updated_at": "2026-01-26T15:59:05.168Z",
+    "assigned_to": [
+      3
+    ]
+  }
+},
+{
+  "model": "tasks.task",
+  "pk": 28,
+  "fields": {
+    "project": 1,
+    "title": "dfgd",
+    "description": "fdfd",
+    "due_date": "2026-10-01",
+    "status": "IN_PROGRESS",
+    "image": "",
+    "is_completed": false,
+    "create_at": "2026-01-26T20:47:44.073Z",
+    "updated_at": "2026-01-26T20:47:44.073Z",
+    "assigned_to": [
+      2,
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "tasks.taskdetail",
+  "pk": 9,
+  "fields": {
+    "task": 9,
+    "priority": "M",
+    "notes": "Capital significant budget heart each owner. Speak eat firm successful less."
+  }
+},
+{
+  "model": "tasks.taskdetail",
+  "pk": 10,
+  "fields": {
+    "task": 10,
+    "priority": "L",
+    "notes": "Push however suffer laugh measure space purpose authority. Many television mother."
+  }
+},
+{
+  "model": "tasks.taskdetail",
+  "pk": 11,
+  "fields": {
+    "task": 11,
+    "priority": "L",
+    "notes": "Able wall record here party though. Region store chance glass act goal old power. Fly never machine shake."
+  }
+},
+{
+  "model": "tasks.taskdetail",
+  "pk": 12,
+  "fields": {
+    "task": 12,
+    "priority": "H",
+    "notes": "Standard several whether quality special. Person mouth one mind technology line. Myself expect scene season two southern."
+  }
+},
+{
+  "model": "tasks.taskdetail",
+  "pk": 13,
+  "fields": {
+    "task": 13,
+    "priority": "H",
+    "notes": "Provide capital show economic economy throw social. Race government consider thing protect kind state. Clear activity number center. Rock student career trial pass probably."
+  }
+},
+{
+  "model": "tasks.taskdetail",
+  "pk": 14,
+  "fields": {
+    "task": 14,
+    "priority": "H",
+    "notes": "Tv should place alone culture film current. Wide black rise gun. Avoid account piece source second five administration. Night left town field"
+  }
+},
+{
+  "model": "tasks.taskdetail",
+  "pk": 15,
+  "fields": {
+    "task": 15,
+    "priority": "H",
+    "notes": "Such buy shake week. If sound change receive community current maintain."
+  }
+},
+{
+  "model": "tasks.taskdetail",
+  "pk": 16,
+  "fields": {
+    "task": 16,
+    "priority": "H",
+    "notes": "Never stage father. Light south since baby benefit."
+  }
+},
+{
+  "model": "tasks.taskdetail",
+  "pk": 17,
+  "fields": {
+    "task": 17,
+    "priority": "L",
+    "notes": "Develop national religious still car college. At admit feel military subject American student. Ready fear green over hand person. According yeah red under."
+  }
+},
+{
+  "model": "tasks.taskdetail",
+  "pk": 18,
+  "fields": {
+    "task": 18,
+    "priority": "L",
+    "notes": "Go play book least air firm age during. Material front as film less if happen. Girl simply see without consider sign."
+  }
+},
+{
+  "model": "tasks.taskdetail",
+  "pk": 19,
+  "fields": {
+    "task": 19,
+    "priority": "H",
+    "notes": "There general term movie standard cell ability. Candidate individual central him fear onto everyone. Seat pretty wife realize class lose century."
+  }
+},
+{
+  "model": "tasks.taskdetail",
+  "pk": 20,
+  "fields": {
+    "task": 20,
+    "priority": "M",
+    "notes": "Six back happen recognize. Act authority cover in civil at."
+  }
+},
+{
+  "model": "tasks.taskdetail",
+  "pk": 26,
+  "fields": {
+    "task": 25,
+    "priority": "L",
+    "notes": "dfd"
+  }
+},
+{
+  "model": "tasks.taskdetail",
+  "pk": 29,
+  "fields": {
+    "task": 28,
+    "priority": "L",
+    "notes": "fdfd"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-01-24T16:52:17.970Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "24",
+    "object_repr": "New Evenet",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-01-24T17:00:38.777Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "22",
+    "object_repr": "Home Work",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Assigned to\", \"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-01-24T17:05:52.832Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "24",
+    "object_repr": "New Evenet",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-01-26T14:27:45.289Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "25",
+    "object_repr": "afd",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-01-26T14:29:41.709Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "15",
+    "object_repr": "Modern service might wide local always nation.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-01-26T15:09:21.583Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "7",
+    "object_repr": "While word agreement family record staff.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-01-26T15:09:30.694Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "19",
+    "object_repr": "Health theory site per standard light often design.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-01-26T15:09:38.508Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "18",
+    "object_repr": "Front task staff media.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-01-26T15:09:49.896Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "17",
+    "object_repr": "Speech significant capital play firm friend future.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-01-26T15:09:58.778Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "16",
+    "object_repr": "Administration movement mission.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-01-26T15:10:16.402Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "13",
+    "object_repr": "Per husband gun candidate up we.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-01-26T15:10:24.634Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "11",
+    "object_repr": "Upon media look number agent baby.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-01-26T15:20:21.024Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "20",
+    "object_repr": "Major laugh consumer design thing a morning.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-01-26T15:20:28.141Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "19",
+    "object_repr": "Health theory site per standard light often design.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-01-26T15:20:34.799Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "18",
+    "object_repr": "Front task staff media.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-01-26T15:20:57.215Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "17",
+    "object_repr": "Speech significant capital play firm friend future.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-01-26T15:21:06.144Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "16",
+    "object_repr": "Administration movement mission.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-01-26T15:21:14.104Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "16",
+    "object_repr": "Administration movement mission.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-01-26T15:21:24.612Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "15",
+    "object_repr": "Modern service might wide local always nation.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2026-01-26T15:21:32.437Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "14",
+    "object_repr": "Life area for blood result these into.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2026-01-26T15:21:39.929Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "13",
+    "object_repr": "Per husband gun candidate up we.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2026-01-26T15:21:47.668Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "12",
+    "object_repr": "Community consumer happen opportunity.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2026-01-26T15:21:54.000Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "11",
+    "object_repr": "Upon media look number agent baby.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2026-01-26T15:22:01.254Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "10",
+    "object_repr": "Old line including really ground choose.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2026-01-26T15:22:08.511Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "9",
+    "object_repr": "Head Republican hope understand state.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2026-01-26T15:22:16.315Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "7",
+    "object_repr": "While word agreement family record staff.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2026-01-26T15:55:43.982Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "20",
+    "object_repr": "Music Fest",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2026-01-26T15:56:06.590Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "19",
+    "object_repr": "Brazil Event Newi",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2026-01-26T15:56:23.405Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "18",
+    "object_repr": "Front Event Now Ongoing",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2026-01-26T15:56:43.684Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "17",
+    "object_repr": "Speech significant capital",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2026-01-26T15:57:22.781Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "17",
+    "object_repr": "Ignite 2026",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2026-01-26T15:57:34.158Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "16",
+    "object_repr": "SparkCon",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2026-01-26T15:57:43.857Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "15",
+    "object_repr": "Visionary Vibes",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2026-01-26T15:58:02.571Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "14",
+    "object_repr": "TechTide",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2026-01-26T15:58:11.281Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "13",
+    "object_repr": "Momentum",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2026-01-26T15:58:25.408Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "12",
+    "object_repr": "InnovateX",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2026-01-26T15:58:34.597Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "11",
+    "object_repr": "Pulse 2026",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2026-01-26T15:58:43.792Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "10",
+    "object_repr": "Next Horizon",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2026-01-26T15:58:53.778Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "9",
+    "object_repr": "Quantum Leap",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2026-01-26T15:59:05.171Z",
+    "user": [
+      "arman"
+    ],
+    "content_type": [
+      "tasks",
+      "task"
+    ],
+    "object_id": "25",
+    "object_repr": "Fusion 2026",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+}
+]

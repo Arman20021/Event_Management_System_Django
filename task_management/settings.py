@@ -93,16 +93,16 @@ WSGI_APPLICATION = 'task_management.wsgi.application'
 # }
 
 
+# Example for Postgres
+ 
+
 
 DATABASES = {
     'default': dj_database_url.config(
-        # Replace this value with your local database's connection string.
-        default='postgresql://event_manager_db_v7u1_user:P5HXYS5Sx5tKalCvN579CKdEZr9gkdpa@dpg-d5s9rss9c44c73eqi2gg-a.oregon-postgres.render.com/event_manager_db_v7u1',
+        default='postgresql://postgres:1234@localhost:5432/task_management',
         conn_max_age=600,
-        ssl_require=True
     )
 }
-
 
 #for sql lite
 # DATABASES = {
